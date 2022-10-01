@@ -4,7 +4,7 @@ Azule Tweak Injection Usage Instructions For MacOSX
 ## Table of Contents
 
 * [Prerequisite](#prerequisite)
-* [Download & Installation](#download-&-installation)
+* [Download & Installation](#download-installation)
 * [Sideloading](#sideloading)
 * [Credits](#credits)
 
