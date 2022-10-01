@@ -1,5 +1,5 @@
-# Azule-Usage-Instructions-MacOSX
-Azule Tweak Injection Usage Instructions For MacOSX
+# Azule-Usage-Instructions-Desktop
+Azule Tweak Injection Usage Instructions For Desktop
 
 ## Table of Contents
 
