@@ -11,7 +11,7 @@ Azule Tweak Injection Usage Instructions For Desktop
 
 ## Prerequisite
 
-1) MacOSX/Windows.
+1) MacOSX/Windows/Linus.
 2) Terminal/CMD-Line (basic knowledge of how it works).
 3) Azule Installed (Make sure you set azule as a global command for ease of use). 
 4) Internet Connection (To download IPAs and Tweak debs).
@@ -20,6 +20,9 @@ Azule Tweak Injection Usage Instructions For Desktop
 ## Download & Installation
 
 1) Download and install azule as per their official documentation from [here](https://github.com/Al4ise/Azule/wiki).
+- For windows, you'll have to install WSL which enables you to use Linux tools, like Bash or Grep without dual-booting.
+- Follow the [official documentation](https://learn.microsoft.com/en-us/windows/wsl/install) to install.
+
 
 
 2) Now open your terminal/cmd and type the following:
@@ -37,12 +40,15 @@ Command:
 
 
 3) Now let's set an environment for our tweak injection process (optional).
-Create a new directory on your desktop with your desired name (i.e Tweaks).
-Within the "Tweaks" directory, create a subdirectory and name it "Output".
+ - Create a new directory on your desktop with your desired name (i.e Tweaks).
+ - Within the "Tweaks" directory, create a subdirectory and name it "Output".
 
 
-4) Now download your desired decrypted IPA on your computer that you wanna inject the tweaks into and move it to the newly created directory "Tweaks". For this example, we'll be using "YouTube".
-You can download the IPA from anywhere, just make sure to get it from a trusted source. For this example, I'll be getting it from [AppDB](appdb.to).
+
+4) Now download your desired decrypted IPA on your computer that you wanna inject the tweaks into and move it to the newly created directory "Tweaks". 
+For this example, we'll be using "YouTube".
+You can download the IPA from anywhere, just make sure to get it from a trusted source. For this example, I'll be getting it from [AppDB](https://www.appdb.to).
+
 
 
 5) Download the tweaks (debs/dylibs) that you wanna inject into the IPA file and move them to the "Tweaks" directory too.
