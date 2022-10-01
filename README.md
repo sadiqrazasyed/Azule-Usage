@@ -11,7 +11,7 @@ Azule Tweak Injection Usage Instructions For Desktop
 
 ## Prerequisite
 
-1) MacOSX/Windows/Linus.
+1) MacOSX/Windows/Linux.
 2) Terminal/CMD-Line (basic knowledge of how it works).
 3) Azule Installed (Make sure you set azule as a global command for ease of use). 
 4) Internet Connection (To download IPAs and Tweak debs).
