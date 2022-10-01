@@ -4,9 +4,10 @@ Azule Tweak Injection Usage Instructions For MacOSX
 ## Table of Contents
 
 * [Prerequisite](#prerequisite)
-* [Download & Installation](#download-installation)
+* [Download & Installation](#download--installation)
 * [Sideloading](#sideloading)
 * [Credits](#credits)
+
 
 ## Prerequisite
 
@@ -15,18 +16,24 @@ Azule Tweak Injection Usage Instructions For MacOSX
 3) Azule Installed (Make sure you set azule as a global command for ease of use). 
 4) Internet Connection (To download IPAs and Tweak debs).
 
+
 ## Download & Installation
 
 1) Download and install azule as per their official documentation from [here](https://github.com/Al4ise/Azule/wiki).
 
+
 2) Now open your terminal/cmd and type the following:
+
 Command:
  ```sh
   azule -h
  ```
  
+ 
 > To make sure azule is installed and running as expected. Refer to the screenshot below:
 
+
+![Screenshot](Images/Azule-1.png)
 
 
 3) Now let's set an environment for our tweak injection process (optional).
@@ -41,15 +48,23 @@ You can download the IPA from anywhere, just make sure to get it from a trusted 
 5) Download the tweaks (debs/dylibs) that you wanna inject into the IPA file and move them to the "Tweaks" directory too.
 You can get the deb files from anywhere, but for this example, we'll be using [ios-repo-updates.com](https://www.ios-repo-updates.com/). I prefer this site since it also mentions the dependencies of the tweaks. 
 
+
 > Screenshot for reference:
+
+
+![Screenshot](Images/IOS-Repo.png)
 
 
 6) As you can see in the screenshot, iSponsorBlock tweak depends on "ws.hbang.alderis" (version equal to or above 1.1). So search for "alderis" on the same site and download the deb too.
 
-> We now have the IPA as well as the deb files in our "Tweaks" directory aka "The environment". Refer to the screenshot below to understand better.
+
+> We now have the IPA as well as the deb files in our "Tweaks" directory aka "The environment". 
+Refer to the screenshot below to understand better.
+![Screenshot](Images/Azule-2.png)
 
 
 7) Let's inject them!
+
 
 > Before we do, let me explain the basic commands that we'll be using so you understand better.
 - "azule" is to execute/call the script.
@@ -60,17 +75,30 @@ You can get the deb files from anywhere, but for this example, we'll be using [i
 
 > Now that it's clear, let's start the process, open your terminal/cmd and type the following:
 
+
 Command:
  ```sh
 azule -i PATH/Tweaks/YouTube.ipa -f PATH/Tweaks/iSponsorBlock.deb PATH/Tweaks/Alderis.deb -o PATH/Tweaks/Output/YouTubeTweaked.ipa
  ```
  
+ 
 Click "enter" and azule will inject the tweaks for you in a matter of seconds.
+
 
 > Please refer to the screenshot below:
 
 
-DONE. It's that simple! ;)
+![Screenshot](Images/Azule-3.png)
+
+
+DONE. Your tweaked IPA will be inside "Output" directory. 
+
+
+![Screenshot](Images/Azule-4.png)
+
+
+It's that simple! ;)
+
 
 > An important point to remember: When injecting a tweak that also has a dependency, be sure to inject both, the tweak deb and dependency deb in the same command so azule can adjust the path which could potentially save your app from crashing.
 
