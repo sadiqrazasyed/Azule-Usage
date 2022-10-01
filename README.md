@@ -60,6 +60,8 @@ You can get the deb files from anywhere, but for this example, we'll be using [i
 
 > We now have the IPA as well as the deb files in our "Tweaks" directory aka "The environment". 
 Refer to the screenshot below to understand better.
+
+
 ![Screenshot](Images/Azule-2.png)
 
 
